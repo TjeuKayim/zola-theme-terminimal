@@ -61,9 +61,12 @@
   }
 
   &-tags-inline {
-    @extend %tags;
+    // @extend %tags;
 
     display: inline;
+	margin-bottom: 5px;
+	font-size: 1rem;
+	opacity: .5;
 
     @media (max-width: $phone-max-width) {
       display: block;
@@ -71,7 +74,7 @@
   }
 
   &-content {
-    margin-top: 30px;
+    margin-top: 15px;
   }
 
   &-cover {
